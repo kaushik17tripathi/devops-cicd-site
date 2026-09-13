@@ -1,0 +1,9 @@
+{
+  "name": "devops-cicd-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p dist && cp index.html styles.css app.js dist/"
+  }
+}
